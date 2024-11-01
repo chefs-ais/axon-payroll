@@ -3,7 +3,7 @@
 	import { ArrowRight, Menu } from 'lucide-svelte';
 </script>
 
-<nav class="sticky top-0 z-[999] h-full w-full bg-transparent backdrop-blur-sm">
+<nav class="sticky top-0 z-[999] h-full w-full bg-white">
 	<div class="mx-auto h-full max-w-screen-xl p-5">
 		<div class="flex items-center justify-between">
 			<!-- Logo -->

@@ -26,32 +26,60 @@
 		</div>
 	</div>
 	<div class="mt-12">
-		<h2 class="text-xl font-semibold lg:text-3xl">Your all-in-one Global Payroll Platform.</h2>
+		<h2 class="text-xl font-semibold lg:text-3xl text-primary-700">Your all-in-one Global Payroll Platform.</h2>
 		<br />
 		<div class="grid grid-cols-5 gap-8">
 			<div
-				class="col-span-5 max-h-[500px] rounded-md bg-[#f9f9f9] px-5 pt-12 text-primary-700 lg:col-span-3"
+				class="col-span-5 max-h-[550px] rounded-md bg-[#f9f9f9] px-5 pt-12 text-primary-700 lg:col-span-3"
 			>
 				<div class="mb-8">
-					<h2 class="text-md font-semibold lg:text-lg">Pay anyone, anywhere in minutes</h2>
+					<h2 class="text-md font-semibold lg:text-lg">Global Payroll, Simplified</h2>
 					<p class="text-black">
-						Automated global payroll that keeps your team paid on time, every time. Compliant,
-						secure, and hassle-free.
+						Seamlessly manage payroll for teams across borders, with full compliance and secure
+						transactions—all from one platform.
 					</p>
 				</div>
-				<img src={PayRollRun} alt="" />
+				<img src={PayRollRun} alt="create payroll" />
 			</div>
 			<div
-				class="col-span-5 max-h-[500px] rounded-md bg-[#f9f9f9] px-5 text-primary-700 lg:col-span-2"
+				class="col-span-5 max-h-[550px] rounded-md bg-[#f9f9f9] px-5 text-primary-700 lg:col-span-2"
 			>
-				<img src={Calculator} alt="" />
-				<div class="mt-8">
-					<h2 class="text-md font-semibold lg:text-lg">Pay anyone, anywhere in minutes</h2>
+				<img src={Calculator} alt="calculate PAYE and SSNIT" />
+				<div class="my-8">
+					<h2 class="text-md font-semibold lg:text-lg">
+						Automate Payroll for Your Global Workforce
+					</h2>
 					<p class="text-black">
 						Automated global payroll that keeps your team paid on time, every time. Compliant,
 						secure, and hassle-free.
 					</p>
 				</div>
+			</div>
+			<div
+				class="col-span-5 max-h-[550px] rounded-md bg-[#f9f9f9] px-5 text-primary-700 lg:col-span-2"
+			>
+				<img src={Calculator} alt="calculate PAYE and SSNIT" />
+				<div class="my-8">
+					<h2 class="text-md font-semibold lg:text-lg">Stay Compliant Anywhere, Anytime</h2>
+					<p class="text-black">
+						Our platform keeps you compliant with local regulations, tax requirements, and labor
+						laws, giving you peace of mind and saving valuable time.
+					</p>
+				</div>
+			</div>
+			<div
+				class="col-span-5 max-h-[550px] rounded-md bg-[#f9f9f9] px-5 pt-12 text-primary-700 lg:col-span-3"
+			>
+				<div class="mb-8">
+					<h2 class="text-md font-semibold lg:text-lg">
+						Insight-Driven Payroll for Smarter Decisions
+					</h2>
+					<p class="text-black">
+						Gain full visibility with real-time analytics and reports that help you make informed
+						decisions and optimize payroll for maximum efficiency.
+					</p>
+				</div>
+				<img src={PayRollRun} alt="create payroll" />
 			</div>
 		</div>
 	</div>
