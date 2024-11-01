@@ -1,0 +1,49 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+      <!-- Background Globe Lines -->
+      <path d="M50,150 C100,100 300,100 350,150 C300,200 100,200 50,150" 
+            fill="none" stroke="#DDDDDD" stroke-width="2"/>
+      <path d="M50,130 C100,80 300,80 350,130" 
+            fill="none" stroke="#DDDDDD" stroke-width="2"/>
+      <path d="M50,170 C100,220 300,220 350,170" 
+            fill="none" stroke="#DDDDDD" stroke-width="2"/>
+            
+      <!-- Moving Payment Symbol -->
+      <g transform="translate(0, 0)">
+        <!-- Cedi Sign Circle -->
+        <circle cx="200" cy="150" r="30" fill="black"/>
+        <!-- Cedi Symbol -->
+        <path d="M205,130 L205,170 M195,135 C185,135 180,142 180,150 C180,158 185,165 195,165 L210,165" 
+              stroke="white" fill="none" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    
+      <!-- Connection Lines -->
+      <g stroke="black" stroke-width="2">
+        <line x1="100" y1="150" x2="160" y2="150" stroke-dasharray="5,5"/>
+        <line x1="240" y1="150" x2="300" y2="150" stroke-dasharray="5,5"/>
+      </g>
+    
+      <!-- Location Pins -->
+      <g>
+        <!-- Left Pin -->
+        <path d="M100,150 C100,140 90,130 100,120 C110,130 100,140 100,150" 
+              fill="black" stroke="none"/>
+        <!-- Right Pin -->
+        <path d="M300,150 C300,140 290,130 300,120 C310,130 300,140 300,150" 
+              fill="black" stroke="none"/>
+      </g>
+    
+      <!-- Clock Elements -->
+      <g transform="translate(320, 50)">
+        <circle cx="0" cy="0" r="15" fill="none" stroke="black" stroke-width="2"/>
+        <line x1="0" y1="0" x2="0" y2="-8" stroke="black" stroke-width="2"/>
+        <line x1="0" y1="0" x2="6" y2="0" stroke="black" stroke-width="2"/>
+      </g>
+    
+      <!-- Small Flying Dots suggesting movement -->
+      <g fill="black">
+        <circle cx="140" cy="145" r="2"/>
+        <circle cx="150" cy="155" r="2"/>
+        <circle cx="250" cy="145" r="2"/>
+        <circle cx="260" cy="155" r="2"/>
+      </g>
+    </svg>

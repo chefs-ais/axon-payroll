@@ -24,9 +24,9 @@
 					target="_blank">Products</a
 				>
 				<a
-					href="https://www.axoninfosystems.com"
+					href="/pricing"
 					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
-					target="_blank">Pricing</a
+					>Pricing</a
 				>
 				<div class="hidden h-4 border-[0.5px] border-neutral-200 lg:block"></div>
 				<a
