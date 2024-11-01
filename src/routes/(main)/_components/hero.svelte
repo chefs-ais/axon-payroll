@@ -1,10 +1,9 @@
 <script>
-	import { ArrowRight } from 'lucide-svelte';
 	import Hero from '$lib/images/hero.png';
-	import LogoCloud from '$lib/components/main/logo-cloud.svelte';
+	import { ArrowRight } from 'lucide-svelte';
 </script>
 
-<div class="mx-auto lg:min-h-screen max-w-screen-xl px-5 py-24">
+<div class="mx-auto h-full max-w-screen-xl px-5 py-24">
 	<h1
 		class="text-3xl font-extrabold tracking-tight text-black md:text-[40px] md:leading-[1.1] lg:col-span-2 lg:text-[64px] lg:leading-[1.125em]"
 	>

@@ -3,7 +3,7 @@
 	import { ArrowRight, Menu } from 'lucide-svelte';
 </script>
 
-<nav class="sticky top-0 h-full w-full bg-white">
+<nav class="sticky top-0 z-[999] h-full w-full bg-transparent backdrop-blur-sm">
 	<div class="mx-auto h-full max-w-screen-xl p-5">
 		<div class="flex items-center justify-between">
 			<!-- Logo -->
@@ -15,28 +15,23 @@
 				<!-- Todo: use #each -->
 				<a
 					href="https://www.axoninfosystems.com"
-					class="hover:text-ap-gold-base hidden text-sm font-semibold text-primary-700 hover:underline lg:block"
+					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
 					target="_blank">Features</a
 				>
 				<a
 					href="https://www.axoninfosystems.com"
-					class="hover:text-ap-gold-base hidden text-sm font-semibold text-primary-700 hover:underline lg:block"
+					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
 					target="_blank">Products</a
 				>
 				<a
 					href="https://www.axoninfosystems.com"
-					class="hover:text-ap-gold-base hidden text-sm font-semibold text-primary-700 hover:underline lg:block"
-					target="_blank">Company</a
-				>
-				<a
-					href="/pricing"
-					class="hover:text-ap-gold-base hidden text-sm font-semibold text-primary-700 hover:underline lg:block"
+					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
 					target="_blank">Pricing</a
 				>
 				<div class="hidden h-4 border-[0.5px] border-neutral-200 lg:block"></div>
 				<a
 					href="http://84.247.134.126:97/auth/login/"
-					class="hover:text-ap-gold-base text-sm font-semibold text-primary-700 hover:underline"
+					class="text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline"
 					target="_blank">Login</a
 				>
 				<a href="http://84.247.134.126:97/subscribe/" target="_blank">
