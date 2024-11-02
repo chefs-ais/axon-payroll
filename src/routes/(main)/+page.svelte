@@ -3,6 +3,7 @@
 	import About from './_components/about.svelte';
 	import Cta from './_components/cta.svelte';
 	import Hero from './_components/hero.svelte';
+	import Reviews from './_components/reviews.svelte';
 </script>
 
 <svelte:head>
@@ -11,7 +12,8 @@
 
 <section>
 	<Hero />
-	<LogoCloud/>
+	<LogoCloud />
 	<About />
-	<Cta/>
+	<Reviews />
+	<Cta />
 </section>

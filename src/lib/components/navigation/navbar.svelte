@@ -12,16 +12,10 @@
 			</div>
 			<!-- Navigation Links: Web -->
 			<div class="flex items-center gap-5 text-white">
-				<!-- Todo: use #each -->
 				<a
 					href="https://www.axoninfosystems.com"
 					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
 					target="_blank">Features</a
-				>
-				<a
-					href="https://www.axoninfosystems.com"
-					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
-					target="_blank">Products</a
 				>
 				<a
 					href="/pricing"
