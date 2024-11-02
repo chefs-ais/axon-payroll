@@ -29,7 +29,7 @@
 					target="_blank">Company</a
 				>
 				<a
-					href="https://www.axoninfosystems.com"
+					href="/pricing"
 					class="hover:text-ap-gold-base hidden text-sm font-semibold text-primary-700 hover:underline lg:block"
 					target="_blank">Pricing</a
 				>
