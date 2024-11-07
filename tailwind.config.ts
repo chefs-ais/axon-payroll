@@ -1,9 +1,10 @@
-import typography from '@tailwindcss/typography';
+import flowbitePlugin from 'flowbite/plugin';
 import type { Config } from 'tailwindcss';
 
 export default {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
+		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
 
 	theme: {
@@ -22,7 +23,7 @@ export default {
 					900: '#062416',
 					base: '#1db26d'
 				},
-				"ap-gold": {
+				'ap-gold': {
 					50: '#FEF0D6',
 					100: '#FDE5BB',
 					200: '#FCD999',
@@ -65,5 +66,5 @@ export default {
 		}
 	},
 
-	plugins: [typography]
+	plugins: [flowbitePlugin]
 } satisfies Config;

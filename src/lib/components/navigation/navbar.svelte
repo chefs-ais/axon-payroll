@@ -1,46 +1,23 @@
 <script>
 	import Logo from '$lib/images/ap-logo.png';
 	import { ArrowRight, Menu } from 'lucide-svelte';
+
+	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button } from 'flowbite-svelte';
 </script>
 
-<nav class="sticky top-0 z-[999] h-full w-full bg-white">
-	<div class="mx-auto h-full max-w-screen-xl p-5">
-		<div class="flex items-center justify-between">
-			<!-- Logo -->
-			<div>
-				<a href="/"> <img src={Logo} alt="axon-payroll-logo" class="w-[100px] lg:w-[120px]" /></a>
-			</div>
-			<!-- Navigation Links: Web -->
-			<div class="flex items-center gap-5 text-white">
-				<a
-					href="https://www.axoninfosystems.com"
-					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
-					target="_blank">Features</a
-				>
-				<a
-					href="/pricing"
-					class="hidden text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline lg:block"
-					>Pricing</a
-				>
-				<div class="hidden h-4 border-[0.5px] border-neutral-200 lg:block"></div>
-				<a
-					href="http://84.247.134.126:97/auth/login/"
-					class="text-sm font-semibold text-primary-700 hover:text-ap-gold-base hover:underline"
-					target="_blank">Login</a
-				>
-				<a href="http://84.247.134.126:97/subscribe/" target="_blank">
-					<button
-						type="button"
-						class="ease inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-center text-sm font-medium text-white duration-200 focus-within:outline-none focus-within:ring-4 focus-within:ring-primary-800 hover:bg-primary-800 hover:text-white"
-					>
-						Get Started
-						<ArrowRight class="ms-2 hidden size-4 lg:block" />
-					</button>
-				</a>
-				<button class="lg:hidden">
-					<Menu class="size-8 stroke-primary-700" />
-				</button>
-			</div>
-		</div>
+<Navbar class="w-full sticky top-0 z-[999]">
+	<NavBrand href="/">
+		<img src={Logo} class="w-[100px] lg:w-[120px]" alt="Axon Payroll Logo" />
+	</NavBrand>
+	<div class="flex md:order-2">
+		<Button size="sm" href="http://84.247.134.126:97/auth/login/"
+			>Get started <ArrowRight class="hidden size-4 lg:block" /></Button
+		>
+		<NavHamburger />
 	</div>
-</nav>
+	<NavUl>
+		<NavLi href="#features">Features</NavLi>
+		<NavLi href="/pricing">Pricing</NavLi>
+		<NavLi href="http://84.247.134.126:97/auth/login/">Login</NavLi>
+	</NavUl>
+</Navbar>

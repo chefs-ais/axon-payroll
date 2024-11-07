@@ -1,5 +1,6 @@
 <script>
 	import Hero from '$lib/images/hero.png';
+	import { Button } from 'flowbite-svelte';
 	import { ArrowRight } from 'lucide-svelte';
 </script>
 
@@ -18,18 +19,11 @@
 		</p>
 	</div>
 	<div class="mb-4 flex items-center gap-3">
-		<button
-			type="button"
-			class="ease inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-center text-sm font-medium text-white duration-200 focus-within:outline-none focus-within:ring-4 focus-within:ring-primary-800 hover:bg-primary-800 hover:text-white"
-		>
+		<Button size="sm">
 			Get Started
 			<ArrowRight class="ms-2 size-4" />
-		</button>
-		<button
-			type="button"
-			class="ease inline-flex items-center justify-center rounded-lg border border-primary-700 px-4 py-2 text-center text-sm font-medium text-primary-700 duration-200 focus-within:outline-none focus-within:ring-4 focus-within:ring-primary-300 hover:border-primary-300 hover:bg-primary-300 hover:text-white"
-			>Learn More</button
-		>
+		</Button>
+		<Button size="sm" color="light">Learn More</Button>
 	</div>
-	<img src={Hero} alt="hero" />
+	<img src={Hero} alt="hero" class="rounded-xl border-2 bg-[#f5f5f5] p-0.5 shadow" />
 </div>

@@ -1,5 +1,5 @@
 <script>
-	import PricingCard from '$lib/components/shared/pricingCard.svelte';
+	import PricingCard from '$lib/components/shared/pricing-card.svelte';
 
 	const pricing = [
 		{
@@ -23,7 +23,7 @@
 			],
 			button: 'SUBSCRIBE',
 			isFeaturedPrice: true
-		},
+		}
 		// {
 		// 	packageName: ' Enterprise',
 		// 	price: 'Custom',
@@ -42,25 +42,29 @@
 </script>
 
 <div class="py-16">
-	<div class="mx-auto flex max-w-screen-xl justify-center  p-5 text-6xl font-bold ">
-		All-in-one platform
-	</div>
-	<div class="mx-auto flex max-w-screen-xl justify-center  p-2 text-lg ">
-		You take care of your companies and we take care of the organization and collaboration and everything else
-	</div>
-
-<div class="mx-auto grid max-w-screen-xl lg:grid-cols-2 md:grid-cols-1 md:divide-x-0	lg:divide-x divide-gray-400 p-5 place-items-center">
-		{#each pricing as price_item}
-			<PricingCard
-				CardData={{
-					packageName: price_item.packageName,
-					price: price_item.price,
-					description: price_item.description,
-					features: price_item.features,
-					button: price_item.button,
-					isFeaturedPrice: price_item.isFeaturedPrice
-				}}
-			/>
-		{/each}
+	<div class="mx-auto max-w-screen-xl">
+		<div class="text-center">
+			<div class=" justify-center text-6xl font-bold tracking-tight">All-in-one platform</div>
+			<div class=" justify-center text-lg mt-2">
+				You take care of your companies and we take care of the organization and collaboration and
+				everything else
+			</div>
+		</div>
+		<div
+			class="grid grid-cols-1 md:grid-cols-2 md:divide-x gap-5"
+		>
+			{#each pricing as price_item}
+				<PricingCard
+					CardData={{
+						packageName: price_item.packageName,
+						price: price_item.price,
+						description: price_item.description,
+						features: price_item.features,
+						button: price_item.button,
+						isFeaturedPrice: price_item.isFeaturedPrice
+					}}
+				/>
+			{/each}
+		</div>
 	</div>
 </div>
