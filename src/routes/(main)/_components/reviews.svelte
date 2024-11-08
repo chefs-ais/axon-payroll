@@ -1,6 +1,6 @@
 <section class="bg-white">
     <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-      <h2 class="text-xl font-semibold lg:text-3xl text-primary-700">
+      <h2 class="text-xl font-semibold lg:text-3xl text-primary-700 heading">
         Read trusted reviews from our customers
       </h2>
   

@@ -1,34 +1,28 @@
 <script>
-	import Feature1Img from '$lib/images/features-1.jpg';
+	import { Button } from 'flowbite-svelte';
 	import { ArrowRight } from 'lucide-svelte';
 </script>
 
-<div class="mx-auto max-w-screen-xl px-6 py-16">
-	<div class="relative col-span-3 rounded-xl lg:col-span-2">
-		<div
-			class="ease absolute inset-0 top-0 flex cursor-pointer items-end rounded-xl bg-black/60 p-5 text-white"
-		>
-			<div class="pb-5">
-				<h2 class="text-xl font-semibold lg:text-3xl">Simplify Your Payroll Today</h2>
-				<p class="mt-2 text-neutral-200 lg:text-lg">
+<div class="mx-auto max-w-screen-xl px-6 py-8">
+	<div class="rounded-xl bg-primary-700 px-5 py-16">
+		<div class="flex flex-col lg:flex-row items-center gap-3">
+			<div class="w-full lg:w-3/4">
+				<p class="mb-2 text-sm uppercase tracking-wide text-primary-300">Try It Now</p>
+				<h2
+					class="heading text-xl font-semibold tracking-tight text-white lg:max-w-[60%] lg:text-3xl"
+				>
+					Simplify Your Payroll Today
+				</h2>
+				<p class="text-neutral-200 lg:max-w-[60%] lg:text-lg mt-2">
 					Experience stress-free payroll processing. Start with a free trial and see the difference.
 				</p>
-				<br />
-				<a href="http://84.247.134.126:97/subscribe/" target="_blank">
-					<button
-						type="button"
-						class="ease inline-flex items-center justify-center rounded-lg bg-white px-5 py-2.5 text-center text-sm font-medium text-primary-700 duration-200 focus-within:outline-none focus-within:ring-4 focus-within:ring-[#f5f5f5] hover:bg-[#f5f5f5]"
-					>
-						Try It for Free
-						<ArrowRight class="ms-2 hidden size-4 lg:block" />
-					</button>
-				</a>
+			</div>
+			<div class="w-full lg:w-1/4">
+				<Button color="light" href="http://84.247.134.126:97/subscribe/" target="_blank" size="sm">
+					Try It for Free
+					<ArrowRight class="ms-2 hidden size-4 lg:block" />
+				</Button>
 			</div>
 		</div>
-		<img
-			src={Feature1Img}
-			alt="pay with a click"
-			class="max-h-[550px] w-full rounded-xl object-cover"
-		/>
 	</div>
 </div>

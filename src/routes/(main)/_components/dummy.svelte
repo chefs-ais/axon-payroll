@@ -6,7 +6,7 @@
 
 <div class="mx-auto h-full max-w-screen-xl px-5 py-24">
 	<h1
-		class="text-3xl font-extrabold tracking-tighter text-black md:text-[40px] md:leading-[1.1] lg:col-span-2 lg:text-[64px] lg:leading-[1.125em]"
+		class="heading text-3xl font-extrabold tracking-tighter text-black md:text-[40px] md:leading-[1.1] lg:col-span-2 lg:text-[64px] lg:leading-[1.125em]"
 	>
 		Empowering businesses
 		<br />

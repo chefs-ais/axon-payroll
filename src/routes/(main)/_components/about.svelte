@@ -5,35 +5,18 @@
 </script>
 
 <section class="mx-auto max-w-screen-xl px-5 py-24">
-	<div class="flex flex-col items-center gap-5 lg:flex-row">
-		<div class="w-full lg:w-1/2">
-			<h2 class="text-xl font-bold tracking-tight lg:text-3xl text-primary-700">
-				All your payment and cash flow needs, handled effortlessly.
-			</h2>
-			<p class="mt-2 text-neutral-500 lg:text-lg">
-				Take the stress out of managing payments and cash flow with an all-in-one solution designed
-				to keep your finances organized and under control. From seamless payment processing to
-				real-time cash flow tracking, we handle the details so you can focus on what you do
-				best—running and growing your business with confidence.
-			</p>
-		</div>
-		<div class="w-full lg:w-1/2">
-			<img
-				src={PaygradeView}
-				alt="pay with a click"
-				class="mx-auto max-h-[550px] rounded-xl object-cover"
-			/>
-		</div>
-	</div>
-	<div class="mt-12">
-		<h2 class="text-xl font-bold tracking-tight lg:text-3xl text-primary-700">Your all-in-one Global Payroll Platform.</h2>
-		<br />
+	<div>
+		<h1 class="text-2xl font-extrabold tracking-tight text-primary-700 lg:text-3xl mb-3">
+			Your all-in-one Global Payroll Platform
+		</h1>
 		<div class="grid grid-cols-5 gap-8 lg:gap-5">
 			<div
-				class="col-span-5 max-h-[550px] rounded-lg bg-[#fbfbfb] px-5 pt-12 text-primary-700 lg:col-span-3"
+				class="col-span-5 max-h-[550px] rounded-lg bg-[#edfafa] px-5 pt-12 text-primary-700 lg:col-span-3"
 			>
 				<div class="mb-8">
-					<h2 class="text-md font-bold lg:text-xl tracking-tight">Global Payroll, Simplified</h2>
+					<h2 class="text-md font-bold lg:text-xl">
+						Global Payroll, Simplified
+					</h2>
 					<p class="text-black">
 						Seamlessly manage payroll for teams across borders, with full compliance and secure
 						transactions—all from one platform.
@@ -42,11 +25,11 @@
 				<img src={PayRollRun} alt="create payroll" />
 			</div>
 			<div
-				class="col-span-5 max-h-[550px] rounded-lg bg-[#fbfbfb] px-5 text-primary-700 lg:col-span-2"
+				class="col-span-5 max-h-[550px] rounded-lg bg-[#edf2fa] px-5 text-primary-700 lg:col-span-2"
 			>
 				<img src={Calculator} alt="calculate PAYE and SSNIT" />
 				<div class="my-8">
-					<h2 class="text-md font-bold tracking-tight lg:text-lg">
+					<h2 class="text-md font-bold lg:text-lg">
 						Automate Payroll for Your Global Workforce
 					</h2>
 					<p class="text-black">
@@ -56,11 +39,13 @@
 				</div>
 			</div>
 			<div
-				class="col-span-5 max-h-[550px] rounded-lg bg-[#fbfbfb] px-5 text-primary-700 lg:col-span-2"
+				class="col-span-5 max-h-[550px] rounded-lg bg-[#ecf8ef] px-5 text-primary-700 lg:col-span-2"
 			>
 				<img src={Calculator} alt="calculate PAYE and SSNIT" />
 				<div class="my-8">
-					<h2 class="text-md font-bold tracking-tight lg:text-lg">Stay Compliant Anywhere, Anytime</h2>
+					<h2 class="text-md font-bold lg:text-lg">
+						Stay Compliant Anywhere, Anytime
+					</h2>
 					<p class="text-black">
 						Our platform keeps you compliant with local regulations, tax requirements, and labor
 						laws, giving you peace of mind and saving valuable time.
@@ -68,10 +53,10 @@
 				</div>
 			</div>
 			<div
-				class="col-span-5 max-h-[550px] rounded-lg bg-[#fbfbfb] px-5 pt-12 text-primary-700 lg:col-span-3"
+				class="col-span-5 max-h-[550px] rounded-lg bg-[#fff4ea] px-5 pt-12 text-primary-700 lg:col-span-3"
 			>
 				<div class="mb-8">
-					<h2 class="text-md font-bold tracking-tight lg:text-lg">
+					<h2 class="text-md font-bold lg:text-lg">
 						Insight-Driven Payroll for Smarter Decisions
 					</h2>
 					<p class="text-black">
