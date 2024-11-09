@@ -15,7 +15,7 @@
 <!-- <div class="col-span-1 mt-12 rounded-sm p-8 text-black flex items-center justify-center shadow-gray-500">
 	
 </div> -->
-<div class="flex h-full flex-col gap-5 border border-gray-300 rounded-3xl">
+<div class="flex h-full flex-col gap-5 border border-gray-300 rounded-3xl transition-transform transform hover:scale-105 hover:shadow-xl">
 	<div class="p-5">
 		<h1 class="text-xl font-bold">{CardData.packageName}</h1>
 		<div class="flex gap-3 items-center mb-3 mt-5">
