@@ -13,7 +13,7 @@
 		{
 			packageName: 'Paystack Pack One',
 			price: '₵20',
-			description: 'testing',
+			description: 'Testing',
 			features: [
 				'All features included',
 				'Community suport channel',
@@ -27,7 +27,7 @@
 		{
 			packageName: ' Enterprise',
 			price: 'Custom',
-			description: ' Minimum $18,000 annually',
+			description: ' Advanced',
 			features: [
 				'All features included',
 				'Community suport channel',
@@ -35,7 +35,7 @@
 				'Limited to one instance',
 				'SDD'
 			],
-			button: "Let's Talk",
+			button: "SUBSCRIBE",
 			isFeaturedPrice: false
 		}
 	];
