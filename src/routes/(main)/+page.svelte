@@ -6,7 +6,7 @@
 	import Features from './_components/features.svelte';
 	import Hero from './_components/hero.svelte';
 	import Infographic from './_components/infographic.svelte';
-	import Reviews from './_components/reviews.svelte';
+	// import Reviews from './_components/reviews.svelte';
 </script>
 
 <svelte:head>
@@ -20,6 +20,6 @@
 	<About />
 	<Benefits />
 	<Infographic />
-	<Reviews />
+	<!-- <Reviews /> -->
 	<Cta />
 </section>
