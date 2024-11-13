@@ -12,24 +12,37 @@
 	export let CardData: CardDataProps;
 </script>
 
-<div class="col-span-1 mt-12 rounded-sm p-8 text-black shadow-gray-500">
-	<div class="flex h-full w-full flex-col items-center gap-5">
-		<h1 class="text-4xl font-bold">{CardData.packageName}</h1>
-		<h2 class="pt-4 text-xl font-bold">{CardData.price}</h2>
+<!-- <div class="col-span-1 mt-12 rounded-sm p-8 text-black flex items-center justify-center shadow-gray-500">
+	
+</div> -->
+<div class="flex h-full flex-col gap-5 border border-gray-300 rounded-3xl transition-transform transform hover:scale-105 hover:shadow-xl">
+	<div class="p-5">
+		<h1 class="text-xl font-bold">{CardData.packageName}</h1>
+		<div class="flex gap-3 items-center mb-3 mt-5">
+			<h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">{CardData.price}</h2>
+		<div>per month</div>
+		</div>
 		<h3>{CardData.description}</h3>
+		<br>
+		<Button color={CardData.isFeaturedPrice ? 'primary' : 'light'} class="w-full">
+			{CardData.button}
+		</Button>
+		
+	</div>
 
-		<h2 class="font-bold">What's included</h2>
+	<hr class="w-full">
 
+	<div class="p-5">
+
+
+		<h2 class="pb-8 font-bold">What's included</h2>
 		<div class="">
 			{#each CardData.features as feature}
-				<div class="flex items-center gap-2">
+				<div class="flex items-center gap-2 pb-3">
 					<ArrowDownRight class="h-4 w-4" />
 					<p>{feature}</p>
 				</div>
 			{/each}
 		</div>
-		<Button color={CardData.isFeaturedPrice ? 'primary' : 'light'}>
-			{CardData.button}
-		</Button>
 	</div>
 </div>

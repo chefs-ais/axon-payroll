@@ -5,7 +5,7 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button } from 'flowbite-svelte';
 </script>
 
-<header class="sticky top-0 w-full bg-white">
+<header class="sticky top-0 w-full bg-white z-50">
 	<Navbar class="max-w-screen-xl mx-auto">
 		<NavBrand href="/">
 			<img src={Logo} class="w-[100px] lg:w-[120px]" alt="Axon Payroll Logo" />
